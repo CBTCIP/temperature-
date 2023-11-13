@@ -1,0 +1,27 @@
+*{
+    background-color: rgb(246, 246, 159);
+}
+
+.container {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  input {
+    width: 100px;
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 1rem;
+  }
+  
+  button {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: 1px solid black;
+  }
+  
+  .op {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
