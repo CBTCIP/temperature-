@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <audio autoplay loop class="audio">
+    <source src="game.wav" type="audio/wav" />
+  </audio>
+ 
+  <audio autoplay loop muted class="clik">
+    <source src="click.wav" type="audio/wav" />
+  </audio>
+
+  <audio autoplay loop muted class="over">
+    <source src="over.wav" type="audio/wav" />
+  </audio>
+
+  <h1>SYMON SAYS GAME</h1>
+  <h2 class="h2">press any key to start the game</h2>
+  <div class="parent">
+     <div class="line1">
+        <div class="btn btnr" type="button" id="btnr"></div>
+        <div class="btn btng" id="btng" type="button"></div>
+      </div>
+      <div class="line2">
+        <div class="btn btnb" id="btnb" type="button"></div>
+        <div class="btn btny" id="btny" type="button"></div>
+      </div>
+  </div class="ex">
+  <button class="submit">Submit</button>
+  <div id="tudo" class="go">
+
+    <div class="gameover">
+    <p> GAME </p>
+    <p> OVER </p>
+    </div>
+  
+    <div class="continue"> <p> CONTINUE? </p> </div>
+  
+    <div class="opcoes">
+      <div class="yes"> <a href=""http://localhost:3000/home"> YES </a> </div>
+      <div class="no"> <a href="./user"> NO </a> </div>
+    </div>
+    <br>
+    <br><br><br><br><br>
+    <h2 class="score">Score = 0</h2>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
